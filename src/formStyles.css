@@ -1,0 +1,20 @@
+.body {
+  font-family: -apple-system, sans-serif;
+}
+
+.form {
+  border: 2px solid #eee;
+  display: block;
+  padding: 1rem;
+  width: 15rem;
+}
+
+.input {
+  margin: 0.2rem;
+  display: inline-block;
+}
+
+.button {
+  padding: 0.5rem;
+  font-weight: bold;
+}

@@ -57,7 +57,7 @@ class NameForm extends React.Component {
         e.preventDefault();
         this.handleSubmit(formData);
         e.target.reset();
-      }}>
+      }>
         <input type="text" name="firstname" ref={node => formData.firstname = node.value} />
         <input type="text" name="lastname" ref={node => formData.lastname = node.value} />
         <input type="submit" value="Submit" />

@@ -14,7 +14,7 @@ const webpackServer = (cfg) => {
     port: p,
     host: h,
     headers: {
-      'Access-Control-Allow-Origin': 'http://127.0.0.1:5050'
+      'Access-Control-Allow-Origin': '*'
     },
     stats: "errors-only",
     clientLogLevel: "error"
